@@ -172,6 +172,12 @@ class CatCodingPanel {
 
 				<script nonce="${nonce}" src="${scriptUri}"></script>
 			</body>
+					<div>
+                     <form id="skip_to_form">
+                         <label for="jumpto">Jump to: </label>
+                         <input type="number" id="skip_to_val" min="0" max="100">
+                     </form>
+                 </div>
 			</html>`;
 	}
 }
